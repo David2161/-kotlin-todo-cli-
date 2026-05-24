@@ -20,18 +20,18 @@ fun main() {
                 val desc = readLine()
                 // Verificamos de forma segura que la cadena no esté vacía o nula
                 if (!desc.isNullOrBlank()) {
-                    gestor.agregarTarea(desc.trim())
+                  //  gestor.agregarTarea(desc.trim())
                 } else {
                     println("Error: La descripción de la tarea no puede estar vacía.")
                 }
             }
-            2 -> gestor.listarTareas()
+          //  2 -> gestor.listarTareas()
             3 -> {
                 print("Introduce el ID de la tarea a completar: ")
                 val idInput = readLine()?.toIntOrNull()
                 // let ejecuta el bloque solo si el ID es un número válido
                 idInput?.let { id ->
-                    if (gestor.marcarComoCompletada(id)) {
+                 //   if (gestor.marcarComoCompletada(id)) {
                         println("Tarea marcada como completada.")
                     } else {
                         println("No se encontró ninguna tarea con el ID: $id")
@@ -42,7 +42,7 @@ fun main() {
                 print("Introduce el ID de la tarea a eliminar: ")
                 val idInput = readLine()?.toIntOrNull()
                 idInput?.let { id ->
-                    if (gestor.eliminarTarea(id)) {
+                  //  if (gestor.eliminarTarea(id)) {
                         println("Tarea eliminada exitosamente.")
                     } else {
                         println("No se encontró ninguna tarea con el ID: $id")
