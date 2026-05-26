@@ -7,15 +7,12 @@ Para clonar, compilar y ejecutar esta aplicación desde cero en tu equipo local,
 
 ```bash
 # Clonar el repositorio
-git clone [https://github.com/TU_USUARIO/kotlin-todo-cli.git](https://github.com/TU_USUARIO/kotlin-todo-cli.git)
-
+git clone https://github.com/MarcoDuran27/-kotlin-todo-cli-.git
 # Acceder al directorio del proyecto
 cd kotlin-todo-cli
 
 # Compilar el archivo del proyecto
-kotlinc Main.kt Tarea.kt GestorTareas.kt -include-runtime -d GestorTareas.jar (este siendo mi caso)
-
-# Ejecutar la aplicación compilada
+kotlinc Main.kt GestorTareas.kt Tarea.kt -include-runtime -d GestorTareas.jar# Ejecutar la aplicación compilada
 java -jar GestorTareas.jar
 ```
 
@@ -46,7 +43,7 @@ java -jar GestorTareas.jar
 
 * **d) ¿Qué aprendiste de este proyecto que no aprendiste solo leyendo o viendo videos?**
     La importancia de la robustez del código cuando ejecutas el codigo. Ver vídeos hace me hace creer que me saldran las a la primera, pero cuando trabajo directamente con la consola casi simpre habra errores y corregir los luego llega a ser complicado aun mas como en mi caso que no habia estado familiarizado en este entorno.
-## Módulo de trivia
+## Módulo de trivia 
 
 El proyecto incluye un módulo de trivia sobre conceptos básicos de Kotlin.
 
