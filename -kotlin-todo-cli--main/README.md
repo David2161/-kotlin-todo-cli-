@@ -1,8 +1,7 @@
-# Gestor de Tareas por Consola (To-Do CLI)
+## 1. Nombre del proyecto y descripción breve
 
-## 1. Descripción 
-Es una aplicación intuitiva y ligera de línea de comandos desarrollada en Kotlin diseñada para gestionar actividades diarias mediante operaciones CRUD fluidas y seguras.
-
+**Gestor de Tareas por Consola (To-Do CLI)**
+    Es una aplicación de línea de comandos desarrollada en Kotlin que permite registrar, consultar, completar y eliminar tareas. Su objetivo es practicar conceptos básicos del lenguaje Kotlin mediante un programa funcional ejecutado desde consola.
 ## 2. Instrucciones de Instalación y Ejecución
 Para clonar, compilar y ejecutar esta aplicación desde cero en tu equipo local, asegúrate de tener instalado el SDK de Kotlin (v1.9 o superior). Ejecuta los siguientes comandos en tu terminal:
 
