@@ -39,12 +39,14 @@ class Trivia {
     }
 
     private fun mostrarPregunta(pregunta: Pregunta) {
-        println("${pregunta.id}. ${pregunta.enunciado}")
 
-        pregunta.opciones.forEachIndexed { index, opcion ->
-            println("${index + 1}. $opcion")
-        }
+    println("Dificultad: ${pregunta.dificultad}")
+    println("${pregunta.id}. ${pregunta.enunciado}")
+
+    pregunta.opciones.forEachIndexed { index, opcion ->
+        println("${index + 1}. $opcion")
     }
+}
 
     private fun mostrarResultado(puntaje: Int, total: Int) {
         println("===================================")
