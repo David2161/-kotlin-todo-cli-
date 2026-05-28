@@ -15,6 +15,7 @@ class Trivia {
         println("Responde escribiendo el número de la opción correcta.")
         println("Total de preguntas: ${banco.contarPreguntas()}")
         println()
+        println("-----------------------------------")
 
         preguntas.forEach { pregunta ->
             mostrarPregunta(pregunta)
@@ -33,6 +34,7 @@ class Trivia {
             }
 
             println()
+            println("-----------------------------------")
         }
 
         mostrarResultado(puntaje, preguntas.size)
