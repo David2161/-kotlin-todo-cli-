@@ -47,6 +47,7 @@ class Trivia {
 
     pregunta.opciones.forEachIndexed { index, opcion ->
         println("${index + 1}. $opcion")
+          println("-----------------------------------")
     }
 }
 
